@@ -1,0 +1,4 @@
+@startuml
+[ambassador-nginx] --> [main] :weight=9
+[ambassador-nginx] --> [canary]:weight=1
+@enduml
